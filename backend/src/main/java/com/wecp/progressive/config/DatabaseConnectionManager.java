@@ -1,5 +1,4 @@
-package com.wecp.progressive.config;
 
-public class DatabaseConnectionManager {
-
+        return DriverManager.getConnection(url, user, password);
+    }
 }
